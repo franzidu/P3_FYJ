@@ -1,0 +1,73 @@
+.PreviewCard {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  background-color: white;
+  width: 90%;
+  height: 290px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 5px #bfbfbf;
+}
+
+/* .PreviewCard :global .PreviewButton {
+  border-style: none;
+  border-radius: 15px;
+  text-align: left;
+  border-width: 0px;
+  background-color: white;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+} */
+
+.PreviewCard :global .PreviewImg {
+  position: relative;
+  border-radius: 15px;
+  width: 100% !important;
+  /* margin: 0px 0px 0px 0px; */
+  /* object-position: 0px 120px; */
+  object-fit: contain;
+  margin-bottom: -30px;
+}
+
+.PreviewCard :global .Text {
+  padding-top: 40px;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: block;
+}
+
+.PreviewCard :global h1 {
+  font-family: "Outfit-SemiBold";
+  font-size: 32px;
+  margin-bottom: 0px;
+}
+
+.PreviewCard :global .Question {
+  font-family: "Outfit-Light";
+  line-height: 25px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.PreviewCard :global .alignIconAndAdress {
+  display: flex;
+  padding-bottom: 5px;
+}
+
+.PreviewCard :global .stationAdress {
+  color: rgba(38, 121, 120, 1);
+  font-size: 15px;
+  margin-bottom: 0px;
+  margin-top: 8px;
+  font-family: "Outfit-Regular";
+}
+
+.PreviewCard :global .locationImg {
+  width: 30px;
+  height: auto;
+}

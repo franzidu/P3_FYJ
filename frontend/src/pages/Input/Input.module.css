@@ -1,0 +1,41 @@
+.Input :global h1 {
+  font-family: "Outfit-SemiBold";
+  font-size: 32px;
+  padding-left: 30px;
+  padding-top: 70px;
+  margin-bottom: 0px;
+}
+
+.Input :global .ExitStation {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.Input :global .GoOnWithoutUserInput {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.Input :global .spot {
+  padding-left: 30px;
+  font-size: 14px;
+}
+
+.Input :global .ImageCarousel {
+  margin-top: 40px;
+}
+.Input :global .InputAudio {
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.Input :global .TextCarousel1 {
+  margin-top: 55px;
+}
+.Input :global .TextCarousel2 {
+  margin-top: 40px;
+}
